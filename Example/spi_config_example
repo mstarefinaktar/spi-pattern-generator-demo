@@ -1,0 +1,10 @@
+{
+  "mode": 0,
+  "cs_pin": "CS",
+  "sclk_pin": "SCLK",
+  "mosi_pin": "MOSI",
+  "sequence": [
+    {"type": "write", "data": "0x9F"},
+    {"type": "read", "length": 3}
+  ]
+}
